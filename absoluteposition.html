@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>absolute position</title>
+    <style>
+        *{
+           
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 400px;
+            height: 400px;
+            
+            margin: 10px auto;
+            position: relative;
+            
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .left{
+            background-color: darkcyan;
+            color: white;
+            font-size: 35px;
+            border: 5px solid black;
+            position: absolute;
+            top: 40%;
+            left: 0;
+        }
+        .right{
+            background-color: darkcyan;
+            color: white;
+            font-size: 35px;
+            border: 5px solid black;
+            position: absolute;
+            top: 40%;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+       <div class="container">
+        <img src="1.jpg" alt="error" title="bike">
+        <button class="left">&lt;</button>
+        <button class="right">&gt;</button>
+       </div>
+</body>
+</html>

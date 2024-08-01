@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: olivedrab;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding: 0 30px;
+    align-items: center;
+
+}
+ ul{
+     display: flex;
+    flex-wrap: wrap; 
+    list-style: none;
+    
+
+}
+ li a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+ li:hover {
+    background-color: orange;
+}
+.dropdown{
+    width: 100px;
+    position: absolute;
+    background-color: olivedrab;
+    display: none;
+
+}
+ul li:hover .dropdown{
+    display: block;
+}
+.drop{
+    width: 100px;
+    position: absolute;
+    display: none;
+    background-color: olivedrab;
+    top: 0;
+    right: 100px;
+}
+.dropdown li:hover .drop{
+    display: block;
+}
+.parent{
+    position: relative;
+}
+.drop2{
+    width: 100px;
+    position: absolute;
+    display: none;
+    background-color: olivedrab;
+    top: 0;
+    left: 100px;
+}
+.tvparent{
+    position: relative;
+
+}
+.tvparent:hover .drop2{
+    display: block;
+}
+.drop3{
+    width: 100px;
+    position: absolute;
+    display: none;
+    background-color: olivedrab;
+    top: 0;
+    left: 100px;
+}
+.gadgets{
+    position: relative;
+}
+.gadgets:hover .drop3{
+    display: block;
+}
+.drop4{
+    width: 100px;
+    background-color: olivedrab;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    display: none;
+}
+.access{
+    position: relative;
+}
+.access:hover .drop4{
+    display: block;
+}

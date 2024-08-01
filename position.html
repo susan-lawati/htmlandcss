@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+            position: relative;
+            
+            left: 50px;
+        }
+        .box2{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            opacity: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        i>  Static position-by default
+        ii> Relative position-move according to its own position
+        iii>Absolute position-move according to parent element if position is mentioned
+        iv> fixed position
+        v>  Sticky position-
+        
+    </pre>
+    <h2>Relative position</h2>
+    <div class="box"></div>
+    <h2>Absolute position</h2>
+    <div class="box2"></div>
+</body>
+</html>

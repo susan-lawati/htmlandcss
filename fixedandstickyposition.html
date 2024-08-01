@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed and sticky position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       header{
+        background-color: dodgerblue;
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: black;
+       }
+       nav{
+        background-color: rgb(10, 80, 149);
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: black;
+        position: sticky;
+        top: 0;
+       }
+       main{
+        height: 1200px;
+        background-color: white;
+        
+       }
+       footer{
+        background-color: aqua;
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding: 10px;
+        color: black;
+        height: 100px;
+       }
+       .btm{
+        
+        background-color: rgb(191, 213, 44);
+        color: black;
+        font-size: 30px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+
+       }
+    </style>
+</head>
+<body>
+    <header>This is header section</header>
+    <nav>This is nav section</nav>
+    <main></main>
+    <footer>this is a footer section</footer>
+    <button class="btm">message</button>
+</body>
+</html>

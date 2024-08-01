@@ -1,0 +1,951 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first page  */
+
+.background{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topcontainer{
+    height: 800px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding: 20px 70px;
+    font-size: 40px;
+    
+}
+
+.nav li a{   
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 2px;   
+    font-weight: bold;
+}
+
+.nav li:hover a{
+    color: #107de4;
+    transition: 0.6s;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 30px 70px;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 300px;
+    text-align: center;
+}
+
+.global{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.save{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.lorem{
+    font-size: 15px;
+    color: rgb(219, 219, 219);
+    letter-spacing: 2px;
+    
+}
+
+
+.twobutton{
+    position: absolute;
+    top: 65%;
+    right: 44%;   
+}
+
+.twobutton button{
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+}
+.twobutton button a{
+    text-decoration: none;
+    color: rgb(52, 178, 71);
+}
+.twobutton button:hover{
+    background-color: black;   
+    transition: 0.6s;
+}
+.twobutton button:hover a{
+    color: white;
+    transition: 0.6s;
+}
+.button{
+    position: fixed;
+    right: 0;
+    top: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+    letter-spacing: 2px;
+    
+}
+.dir p{
+    font-size: 15px;
+}
+
+.dir{
+    margin: 15px 0;
+}
+
+.dir:hover a{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+
+/* Second page  */
+
+.secondcontainer {
+    text-align: center;
+    padding: 70px 0;
+}
+.secondcontainer h3{
+    font-size: 25px;
+    color: rgb(47, 207, 100);
+    margin: 10px 0;
+}
+.secondcontainer h2{
+    letter-spacing: 1px;
+    margin: 10px 0 40px 0;
+}
+
+.secondcontainer p{
+    letter-spacing: 2px;
+    color: rgb(116, 116, 116);
+}
+
+                                /* From About us  */
+
+.image img{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    right: 10%;
+}
+.text2 h2{
+    color: rgb(47, 207, 100);
+}
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    
+}
+.image{
+    width: 50%;
+    position: relative;
+
+}
+.text2{
+    width: 40%;
+}
+.text2 h3{
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.text2 p{
+    color: rgb(99, 99, 99);
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.text2 img{
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+/* Third page with card  */
+.card{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.thirdtop{
+    background-image: url(photos/3rdbg.jpg);
+    height: 790px;
+    background-size: cover;
+
+}
+
+.card-text{
+    justify-content:end;
+    align-items: center;
+    width: 30%;
+    margin-top: 90px;
+}
+.card-text p{
+    color: white;
+    letter-spacing: 2px;
+}
+.card-text2{
+    width: 30%;
+    margin-top: 70px;
+}
+.card-text2 h2{
+    color: rgb(197, 255, 194);
+}
+.card-text2 h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.card-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 40px;
+    padding: 0px 190px;
+}
+.box{
+    background-color: white;
+    height: 250px;
+    width: 350px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+    flex-direction: column;
+
+}
+.box h2{
+    color: rgb(103, 185, 99);
+    margin-bottom: 20px;
+}
+.pic {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.box p{
+    letter-spacing: 2px;
+    text-align: center;
+}
+.box:hover{
+    background-color: rgb(243, 211, 169);
+    transition: 0.6s;
+}
+
+
+/* Fourth page  */
+
+
+.fourth{
+    display: flex;
+    justify-content: center;   
+    padding-bottom: 70px ; 
+
+}
+.card-text3{
+    
+    width: 30%;
+    margin-top: 90px;
+}
+.card-text3 p{
+    color: rgb(58, 58, 58);
+    letter-spacing: 2px;
+}
+.card-text4{
+    width: 30%;
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+
+.card-text4 h2{
+    color: rgb(38, 238, 28);
+    text-align: end;
+}
+.card-text4 h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+    text-align: end;
+}
+
+
+.image-part{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.left{
+    width: 550px;
+    margin-right: 10px;
+}
+.right{
+    width: 550px;
+    margin-left: 10px;
+}
+.first img{
+    width: 100%;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.third img{
+    width: 100%;
+}
+
+
+.first-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.third-right img{
+    width: 100%;
+}
+
+
+/* green footer type  */
+
+.green{
+    height: 280px;
+    background-color: rgb(67, 188, 87);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.save1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(67, 188, 87);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.save1 i{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.save1 h3{
+    color: white;
+    margin-top: 10px;
+}
+
+/* fifth page  */
+
+.fifth{
+    display: flex;
+    justify-content: center;   
+    padding-bottom: 70px ; 
+
+}
+.card-text5{
+    
+    width: 30%;
+    margin-top: 90px;
+}
+.card-text5 p{
+    color: rgb(58, 58, 58);
+    letter-spacing: 2px;
+}
+.card-text6{
+    width: 30%;
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+
+.card-text6 h2{
+    color: rgb(38, 238, 28);
+    text-align: start;
+}
+.card-text6 h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+    text-align: start;
+}
+
+.images{
+    display: flex;
+    padding-left: 200px;
+    margin-bottom: 80px;
+}
+.lefty{
+    width: 380px;
+    margin-right: 40px;
+    
+}
+.lefty img{
+    width: 100%;;
+}
+.righty{
+    width: 600px;
+    margin-left: 100px;
+}
+
+.boxshadow{
+    border-radius: 10px;
+    background-color: white;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+.boxshadow i{
+    margin: 0 80px;
+    font-size: 40px;
+}
+.texty{
+    margin-left: 40px;
+}
+.texty h2{
+    color: rgb(38, 238, 28);
+}
+.texty h4{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+/* sixth page start  */
+
+.sixth-bg{
+    background-image: url(photos/sixthbg.jpg);
+    height: 700px;
+    background-size: cover;
+}
+
+.sixth{
+    display: flex;
+    justify-content: center;   
+    padding-bottom: 70px ; 
+
+}
+.card-text7{
+    
+    width: 40%;
+    margin-top: 90px;
+}
+.card-text7 p{
+    color: rgb(241, 241, 241);
+    letter-spacing: 2px;
+}
+.card-text8{
+    width: 40%;
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+
+.card-text8 h2{
+    color: rgb(38, 238, 28);
+    text-align: end;
+}
+.card-text8 h1{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+    text-align: end;
+}
+
+.boxes-sixth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 180px;
+}
+.box-six{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.second-text{
+    display: flex;
+}
+.box-six h2{
+    color: rgb(78, 181, 72);
+    margin-bottom: 20px;
+}
+.para{
+    padding: 20px 20px;
+}
+.para p{
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(169, 169, 169);
+}
+
+
+.box-six button{
+    border-radius: 15px;
+    background-color: rgb(60, 187, 53);
+    padding: 10px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+}
+.box-six button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.box-six button:hover{
+    background-color: black;   
+    transition: 0.6s;
+}
+.box-six button:hover a{
+    color: white;
+    transition: 0.6s;
+}
+
+/* <!-- seventh page (what say peoples) --> */
+
+
+.seventh{
+    display: flex;
+    justify-content: center;   
+    padding-bottom: 70px ; 
+
+}
+.card-text9{
+    width: 30%;
+    margin-top: 90px;
+}
+.card-text9 p{
+    color: rgb(58, 58, 58);
+    letter-spacing: 2px;
+}
+.card-text10{
+    width: 30%;
+    margin-top: 70px;
+    margin-right: 40px;
+    
+}
+
+.card-text10 h2{
+    color: rgb(60, 187, 53);
+    text-align: start;
+}
+.card-text10 h1{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    
+    text-align: start;
+}
+
+
+.seventh-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 160px;
+
+}
+
+.box-seven{
+    width: 360px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+
+}
+.box-seven img{
+    height: 180px;
+    width: 200px;
+    border: 1px solid rgb(154, 154, 154);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.box-seven h2{
+    color: rgb(60, 187, 53);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.box-seven h4{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.box-seven p{
+    letter-spacing: 2px;
+    color: rgb(154, 154, 154);
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+/* save Forest green footerlike  */
+
+.green-footer{
+    height: 340px;
+    background-color: rgb(81, 182, 81);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.play-button{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+.play-button i{
+    font-size: 30px;
+}
+.green-footer h1{
+    color: white;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.green-footer p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(87, 87, 87);
+}
+.green-footer a{
+    text-decoration: none;
+    color: black;
+}
+.green-footer a:hover .play-button{
+    background-color: black;
+    transition: all 0.6s;
+
+}
+
+.green-footer a:hover i{
+    color: white;
+    transition: all 0.6s;
+
+}
+
+/* eight page-volunteer start  */
+
+.box-eight{
+    height: 500px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.boxes-eight{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 180px;
+    padding-bottom: 80px;
+}
+
+.box-eight h2{
+    color: rgb(60, 187, 53);
+    margin: 20px 0;
+}
+.box-eight p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    
+}
+.buttons i{
+    font-size: 20px;   
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+.fb{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 3px;
+}
+.buttons a:hover i{
+    color: rgb(123, 217, 112);
+    transition: all 0.5s;
+}
+
+/* nineth page start - see our events  */
+
+
+    .nineth{
+        background-image: url(photos/ninth.jpeg);
+        background-size: cover;
+        height: 800px;
+    }
+
+    .nineth-card{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 180px;
+    }
+
+    .box-nine{
+        
+        width: 350px;
+        background-color: white;
+        padding: 15px;
+    }
+    .box-nine img{
+        width: 100%;
+    }
+    .box-nine h3{
+        margin: 10px 0;
+        font-weight: lighter;
+    }
+    .box-nine a{
+        text-decoration: none;
+        color: rgb(55, 144, 92);
+        font-size: 30px;
+
+    }
+    .box-nine p{
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        color: rgb(109, 109, 109);
+        margin: 20px 0 20px 0;
+        line-height: 30px;
+    }
+    .date{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* <!-- Tenth page start - get in touch  --> */
+    .two-boxes{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 160px;
+        margin-top: 20px;
+    }
+    .boxx{
+        height: 500px;
+        width: 550px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .details input{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+    .message input{
+        width: 100%;
+        height: 150px;
+        padding: 0 10px;
+    }
+    .send a{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(98, 205, 105);
+        text-align: center;
+        padding: 10px 250px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .send a:hover {
+        background-color: black;
+        color: white;
+        transition: all 0.6s;
+    }
+    .firstbox{
+        background-color: white;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+    .home i{
+        font-size: 40px;
+    }
+    .address h2{
+        color: rgb(98, 205, 105);
+        margin-bottom: 20px;
+    }
+    .address{
+        margin-right: 150px;
+    }
+
+    .firstbox .phone h2{
+        color: rgb(98, 205, 105);
+        margin-bottom: 20px;
+    }
+    .phone{
+        margin-right: 250px;
+    }
+    .email h2{
+        color: rgb(98, 205, 105);
+        margin-bottom: 20px;
+    }
+    .email{
+        margin-right: 250px;
+    }
+    .email a{
+        text-decoration: none;
+        color: black;
+    }
+
+/* map start */
+    .address-map iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .address-map{
+        border: 1px solid rgb(130, 130, 130);
+        padding: 10px;
+    }
+
+    /* Footer start  */
+    .footer-last {
+        background-color: rgb(98, 205, 105);
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 50px;
+        flex-direction: column;
+    
+    }
+    .toptext p{
+        color: white;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        margin: 20px 0;
+    }
+    .toptext a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .toptext a:hover{
+        color: white;
+        text-decoration: underline;
+        transition: all 0.6s;
+    }
+   
+    .social-medias{
+        display: flex;
+    }
+    .last{
+        margin-top: 20px;
+    }
+    .last a{
+        text-decoration: none;
+        color: white;
+    }
+    

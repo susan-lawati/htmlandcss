@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .box{
+            background-color: skyblue;
+            width: 500px;
+            height: 250px;
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: red; */
+            border: 5px solid red;
+
+            /* solid dotted dashed double groove ridge inset outset none */
+            outline: 5px ;
+        }
+        #fname{
+            width: 250px;
+            height: 35px;
+            outline: 5px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="text" name="fname" id="fname" placeholder="enter your first name">
+</body>
+</html>

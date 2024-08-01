@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media screen</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+
+        .demo{
+            height: 200px;
+            width: 24%;
+            background-color: blueviolet;
+
+
+        }
+        /* for medium screen  */
+        @media screen and (max-width:992px) {
+            .container{
+                background-color: blueviolet;
+            }
+            .demo{
+                width: 49%;
+                background-color: coral;
+                margin: 10px 0;
+
+            }
+            
+        }   
+        
+        /* for small screen  */
+        @media screen and (max-width:576px) {
+            .container{
+                background-color: tomato;
+
+            }
+            .demo{
+                width: 99%;
+                margin:  10px 0;
+                background-color: brown;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+
+    </div>
+</body>
+</html>
